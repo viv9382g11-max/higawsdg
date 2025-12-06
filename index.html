@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- 中性 TDK -->
+  <title>跳转页面</title>
+  <meta name="description" content="本页面用于自动跳转至指定目标链接。">
+  <meta name="keywords" content="跳转, 重定向, 链接, 中立页面">
+  <meta name="robots" content="index,follow">
+
+  <!-- Canonical / Open Graph / Twitter -->
+  <link rel="canonical" href="https://byvn.net/mwYb">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="跳转页面">
+  <meta property="og:description" content="本页面用于自动跳转至指定目标链接。">
+  <meta property="og:url" content="https://byvn.net/mwYb">
+  <meta property="og:site_name" content="byvn.net">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="跳转页面">
+  <meta name="twitter:description" content="本页面用于自动跳转至指定目标链接。">
+
+  <!-- 结构化数据 (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "跳转页面",
+    "description": "本页面用于自动跳转至指定目标链接。",
+    "url": "https://byvn.net/mwYb"
+  }
+  </script>
+
+  <!-- 使用 window.location.href 立即跳转 -->
+  <script>
+    (function(){
+      try {
+        // 立即跳转到目标 URL
+        window.location.href = 'https://byvn.net/mwYb';
+      } catch (e) {
+        // 若发生错误，保留页面供用户手动点击
+        console.error('跳转失败：', e);
+      }
+    })();
+  </script>
+
+  <!-- 无 JS 时的备用跳转（延迟 1 秒，便于爬虫读取 TDK） -->
+  <noscript>
+    <meta http-equiv="refresh" content="1;url=https://byvn.net/mwYb">
+  </noscript>
+
+  <style>
+    /* 简洁中性样式 */
+    :root{--bg:#f9fafb;--text:#0f172a;--muted:#6b7280}
+    html,body{height:100%}
+    body{margin:0;font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;display:grid;place-items:center;background:var(--bg);color:var(--text)}
+    .container{max-width:760px;padding:24px;text-align:center}
+    .card{background:white;border-radius:12px;box-shadow:0 6px 20px rgba(2,6,23,0.08);padding:28px}
+    a.button{display:inline-block;margin-top:18px;padding:10px 16px;border-radius:8px;text-decoration:none;border:1px solid #e6edf3}
+    p.muted{color:var(--muted);margin-top:8px}
+  </style>
+</head>
+<body>
+  <main class="container">
+    <section class="card">
+      <h1>正在跳转…</h1>
+      <p class="muted">本页面将自动跳转至指定目标链接。如果浏览器未自动跳转，请点击下方按钮继续。</p>
+      <p><a class="button" href="https://byvn.net/mwYb">继续前往</a></p>
+      <p class="muted" style="font-size:12px;margin-top:12px">本页面为中立跳转页，不代表任何公司、机构或服务。</p>
+</section>
+  </main>
+</body>
+</html>
